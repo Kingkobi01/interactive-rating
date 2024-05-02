@@ -88,6 +88,13 @@ section:last-of-type {
     display: none;
     align-items: center;
     text-align: center;
+
+    &>p:first-of-type {
+        background: var(--neutral-200-20);
+        padding: 0.5rem 1.5rem;
+        border-radius: 1rem;
+        color: var(--primary);
+    }
 }
 
 footer {
